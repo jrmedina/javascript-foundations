@@ -4,7 +4,8 @@ class Unicorn {
     if (color === undefined){
       this.color = 'white'
     } else {
-    this.color = color;
+    this.color = color //|| 'white'
+    // Using the || op is another way of setting a default
     }
   }
   isWhite(){
