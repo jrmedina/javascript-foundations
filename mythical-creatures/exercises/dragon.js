@@ -15,7 +15,7 @@ if (this.meals >= 3) {
   this.hungry = false
   }
 }
-git
+
 }
 
 
